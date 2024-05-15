@@ -8,29 +8,44 @@
 import SwiftUI
 
 struct ContentView: View {
+    func randomHex()-> String {
+        var chars = "0123456789abcdef"
+        var hexColor = ""
+        for _ in 1...16{
+            hexColor.append(chars.randomElement()!)
+        }
+        print(hexColor)
+        return hexColor
+    }
+    
     @State private var showDetails = false
+    var bgs : [Color] = [.red, .green, .blue, .yellow]
+    @State private var color = Color.red
     
     var body: some View {
         
         
         ZStack() {
             
-            Color.green
+            color
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             VStack{
-                Button("asfasd"){
-                    showDetails.toggle()
-                }
                 
                 Image(systemName: "globe")
                     .imageScale(.large)
-                    .foregroundStyle(.green)
+                    .foregroundStyle(.yellow)
                     .background(.blue)
                 Text("Herlo, world!")
+                Button("asfasd"){
+                    
+                    showDetails.toggle()
+                    //color = randomHex()!
+                    
+                }
             }
             
         }
-        //.padding()
+        
     }
 }
 

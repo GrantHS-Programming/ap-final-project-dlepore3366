@@ -56,4 +56,5 @@ func changeTheArray(_ array: NSArray) {
 }
 
 
-let pooop = "pooop"
+let df = "fvdfvdfv"
+var I = "333"

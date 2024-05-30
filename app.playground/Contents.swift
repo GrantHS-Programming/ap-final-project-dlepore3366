@@ -50,4 +50,10 @@ let someNames = NSMutableArray(
     ]
 )
 
-func changeTheArray(_)
+func changeTheArray(_ array: NSArray) {
+    let copy = array as! NSMutableArray
+    copy
+}
+
+
+let pooop = "pooop"

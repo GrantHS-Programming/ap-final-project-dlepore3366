@@ -37,3 +37,25 @@ func minus(
 minus(4,7)
 
 
+func doSomethingComplicated(
+    with value: Int
+) -> Int {
+    func mainLogic(value: Int)-> Int {
+        value + 2
+    }
+    return mainLogic(value: value + 3)
+}
+
+doSomethingComplicated(with: -4)
+
+
+func getFullName(
+    firstName: String = "Foo",
+    lastName: String = "bar"
+) -> String {
+    "\(firstName) \(lastName)"
+}
+getFullName()
+getFullName(firstName: "Baz")
+getFullName(lastName: "Food")
+getFullName(firstName: "P oop", lastName: "pee")

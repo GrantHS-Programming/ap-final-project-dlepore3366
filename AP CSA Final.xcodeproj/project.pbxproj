@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC1355212C18CF6C0055E2D9 /* HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1355202C18CF6C0055E2D9 /* HexColor.swift */; };
 		CCD98D8B2BED421500EC7146 /* AP_CSA_FinalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD98D8A2BED421500EC7146 /* AP_CSA_FinalApp.swift */; };
 		CCD98D8D2BED421500EC7146 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD98D8C2BED421500EC7146 /* ContentView.swift */; };
 		CCD98D8F2BED421700EC7146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD98D8E2BED421700EC7146 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC1355202C18CF6C0055E2D9 /* HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColor.swift; sourceTree = "<group>"; };
 		CCC3FC942BFFC50B000BB8D4 /* app.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = app.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CCD98D872BED421500EC7146 /* AP CSA Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AP CSA Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD98D8A2BED421500EC7146 /* AP_CSA_FinalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AP_CSA_FinalApp.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				CCD98D8A2BED421500EC7146 /* AP_CSA_FinalApp.swift */,
+				CC1355202C18CF6C0055E2D9 /* HexColor.swift */,
 				CCD98D8C2BED421500EC7146 /* ContentView.swift */,
 				CCD98D8E2BED421700EC7146 /* Assets.xcassets */,
 				CCD98D902BED421700EC7146 /* AP_CSA_Final.entitlements */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCD98D8D2BED421500EC7146 /* ContentView.swift in Sources */,
+				CC1355212C18CF6C0055E2D9 /* HexColor.swift in Sources */,
 				CCD98D8B2BED421500EC7146 /* AP_CSA_FinalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
